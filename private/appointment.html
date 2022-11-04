@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/patient-appointment.css">
+  <script src="js/patient-appointment.js"></script>
+  <script src="js/patient-booking.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="current-appoint">
+      <h3>Current Appointments</h3>
+      <hr><br>
+      Date: <input id="date" type="date" value="2019-03-22" readonly>
+      <br><br>
+      Time: <input id="time" value="18:00" type="time" readonly>
+      <br><br>
+      Dr. Name: <input id="drname" type="text" value="Dr. S M Zahid" readonly>
+      <br>
+      <button onclick="div_show()">Cancel Booking</button>
+      <br><br><br>
+    </div>
+
+    <div id="previous-appoint">
+      <h3>Previous Appointments</h3>
+      <hr>
+      <br>
+      <table id="appointmentTable">
+          <tr>
+            <th class="appoint-date">Date</th>
+            <th class="appoint-details">Details</th>
+          </tr>
+          <tr>
+            <td class="appoint-date">23/01/207</td>
+            <td class="appoint-details">Maria Anders</td>
+
+          </tr>
+          <tr>
+            <td class="appoint-date">23/01/207</td>
+            <td class="appoint-details">Francisco Chang</td>
+
+          </tr>
+          <tr>
+            <td class="appoint-date">23/01/207</td>
+            <td class="appoint-details">Roland Mendel</td>
+
+          </tr>
+          <tr>
+            <td class="appoint-date">23/01/207</td>
+            <td class="appoint-details">Yoshi Tannamuri</td>
+          </tr>
+        </table>
+    </div>
+
+    <div id="abc">
+      <div id="popupContact">
+        <form action="#" id="AppointmentForm" name="form">
+          Want to cancel this booking?
+          <br><br>
+          <a href="#top" id="yesbtn" onclick="current_hide()">Yes</a>
+          <a href="#current-appoint" id="nobtn" onclick="div_hide()">No</a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tests | DASS Assessment</title>
+    <link rel="stylesheet" href="/css/style-test.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="/js/script-test.js"></script>
+    <script src="/js/questions.js"></script>
+    <script src="/js/test.js"></script>
+</head>
+
+<body>
+
+    <!-- !Header Content  -->
+
+        <div class="header">
+
+                <div id="logoContainer">
+                  <a href="/index.html">
+                    <img src="img/main-logo.png" class="logo">
+                  </a>
+                </div>
+            
+                <div id="header-btns">
+                  <a id="home" href="#">Home</a>
+                  <a id="test" href="#">Tests</a>
+                  <a id="sign-in" href="#">Sign In</a>
+                </div>
+            
+        </div>
+
+         <!-- Body Content -->
+        <div class="information-box">
+            <h2>DASS Assessment</h2> <hr><br>
+            <p>The DASS is a measure of mental health focusing on the three traits of depression, anxiety and stress. The DASS was designed by Syd Lovibond and Peter Lovibond at the University of New South Wales in 1995.</p><br>
+            <p>The test consists of a list of 21 symptoms, each of which is to be rated on a four point scale of how much you had that symptom in the last week.</p>
+        </div>
+       
+        <div class="instructions-box">
+            <h3>Instructions:</h3> <br>
+            <ul>
+                <li>Make sure you answer all statements below</li>
+                <li>Try to choose the most accurate answer which reflects your real feelings</li>
+                <li>Click <b>Submit</b> when you are done with all the assessment</li>
+                <li>Do not go back to the previous page when you answer the questions until you finish. If so, all answers will be lost</li>
+                <li> Kindly note that:
+                  <ul>
+                    <li> <b>0</b> - Did not apply to me at all </li>
+                    <li> <b>1</b> - Applied to me to some degree, or some of the time </li>
+                    <li> <b>2</b> - Applied to me to a considerable degree or a good part of time </li>
+                    <li> <b>3</b> - Applied to me very much or most of the time </li>
+
+                  </ul>
+              </li>
+            </ul>
+
+
+        </div>
+        <button class="admin-control" onClick="customize()">Customize List</button>
+        <table id="test-tool">
+        </table>
+
+          <script>
+              renderTestPage();
+          </script>
+
+            <button id="submission" onclick="validate()" >submit</button>
+
+            <br> <br> <br> <br>
+
+            
+            <!-- !Footer Content  -->
+
+            <div class="footer">
+              <div id="grid-footer">
+             
+              <img id="whiteLogo" src="/img/white-logo.png">
+         
+              <div id= "hyperlinks">
+               <p id="quick"> QUICK LINKS </p>
+             <div id="links-container">
+               <p><a href="#" class="white">HOME</a></p>
+               <p><a href="#" class="white">CONTACT US</a></p>
+               <p><a href="#" class="white">FAQ</a></p>
+             </div> 
+              </div>
+         
+              <div id="follow-us">
+                 <p id="follow-text">FOLLOW US</p> 
+                 <a href="#"><img src="/img/facebook.webp" class="size-photo"></a>
+                 <a href="#"><img src="/img/instagram.png" class="size-photo"></a>
+                 <a href="#"><img src="/img/whatsapp.png" class="size-photo"></a>
+               </div>
+              </div>
+              
+              <p id="rights">ALL RIGHTS RESERVED FOR NIRVANA TEAM 2019 © </p>
+           </div> 
+</body>
+</html>

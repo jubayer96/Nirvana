@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 95vh;
+    width: 95vw;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#chats {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+#user {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 1fr 7fr;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    background-color: rgb(179, 194, 194);
+    border-radius: 15px;
+}
+
+#user:hover {
+    background-color: #60b0f1;
+    cursor: pointer;
+}
+
+#user-pic {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 7px;
+    margin-top: 12px;
+}
+
+img{
+    width: 50%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+#user-name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#message {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 10px;
+    margin-top: 15px;
+}

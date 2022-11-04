@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/messages.css">
+    <script src="js/messages.js"></script>
+    <title>user1</title>
+</head>
+<body>
+    
+<h2>Chat Messages</h2>
+
+<div class="container">
+  <img src="img/user2.jpg" alt="Avatar" style="width:100%;">
+  <p>Hello. How are you today?</p>
+</div>
+
+<div class="container darker" id="sender-div">
+  <img src="img/user3.jpg" alt="Avatar" id="sender-img" class="right" style="width:100%;">
+  <p id="msg-sender"></p>
+</div>
+
+<div id="msg-box">
+  <input id="msg" type="text">
+  <input onclick="chatMsg()" type="submit" value="send">
+</div>
+
+    
+</body>
+</html>

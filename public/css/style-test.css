@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    --animation-name: example;
+    --duration: 1s;
+    
+}
+
+body{
+    width: 100vw;
+
+}
+
+
+.logo{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    width: 140px;
+    padding-left: 100px;
+    position: relative;
+    bottom: 14px;
+}
+
+.header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;   
+    background-color: #FFFFE0;
+    height: 99px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#header-btns{
+    grid-column: 2/2;
+    grid-auto-rows: 2/2;
+    /* background-color: red;  */
+    padding-left: 38% ; 
+    padding-top: 45px;
+    height: 70px;
+}
+
+
+#test{
+    margin-left: 10%;
+    color: green;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+#sign-in{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+
+}
+
+#sign-in:hover{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+    animation-name: var(--animation-name);;
+    animation-duration: var(--duration);
+}
+
+#home{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+}
+
+#home:hover{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+    animation-name: var(--animation-name);;
+    animation-duration: var(--duration);
+}
+
+  /* Box Content */
+
+
+.information-box{
+    background-color:rgb(169, 220, 240);
+    width: 60%;
+    margin: 40px auto;
+    padding: 15px;
+    line-height: 25px;
+    box-shadow: 10px 10px rgb(158, 151, 151)
+}
+
+
+.instructions-box{
+    width: 70%;
+    margin: 40px auto;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 77%;
+    margin:40px auto;
+    border: solid red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  #submission{
+      margin-left: 84%;
+      padding: 10px;
+      border-radius: 15px;
+      padding: 17px;
+      color: white;
+      background-color: green;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+  }
+
+  .admin-control{
+    margin-left: 78%;
+    padding: 10px;
+    border-radius: 15px;
+    padding: 17px;
+    color: white;
+    background-color: rgb(45, 77, 182);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  /* !CSS Footer */
+
+  #grid-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer{
+    background-color: rgb(61, 53, 53);
+    width: 100%;
+}
+
+#whiteLogo{
+    width: 150px;
+    grid-column: 1/2;
+    margin-left: 50%;
+}
+
+#hyperlinks{
+    padding-top: 16px;
+}
+
+#quick{
+    color: green;
+    grid-column: 2/3;
+    padding-top: 15px;
+    padding-left: 12%;
+    font-weight: bold;
+}
+
+#links-container{
+    margin-left: 13%;
+    position: relative;
+    top: 12px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.white{
+    color: white;
+}
+
+#follow-us{
+    grid-column: 4/5;
+}
+
+.size-photo{
+    width: 45px;
+}
+
+#follow-text{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 20px;
+    color: green;
+    font-family:'Crete Round', serif; 
+    line-height: 30px;
+}
+
+#rights{
+    color: white;
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+    margin-left: 39%;
+    
+}

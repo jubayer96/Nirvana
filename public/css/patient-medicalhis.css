@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 2.5rem;
+}
+
+#health-info {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#health-info input {
+    background: rgb(255, 199, 199);
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#previous-history {
+    font-size: 1.5rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    font-size: 1rem;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.his-medicine {
+    width: 20%;
+}
+
+.his-reason {
+    width: 60%;
+}

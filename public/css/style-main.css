@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    --animation-name: example;
+    --duration: 1s;
+    
+}
+
+.logo{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    width: 140px;
+    padding-left: 100px;
+    position: relative;
+    bottom: 14px;
+}
+
+.header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;   
+    background-color: #FFFFE0;
+    height: 99px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#header-btns{
+    grid-column: 2/2;
+    grid-auto-rows: 2/2;
+    /* background-color: red;  */
+    padding-left: 20% ; 
+    padding-top: 45px;
+    height: 70px;
+}
+
+#book{
+    margin-left: 11%;
+    padding: 15px;
+    background-color:  rgb(210, 0, 0);;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Crete Round', serif;
+}
+
+#book:hover{
+    margin-left: 11%;
+    padding: 15px;
+    background-color: rgb(150, 23, 6);
+    border-radius: 12px;
+    color: white;
+    font-family: 'Crete Round', serif;
+}
+
+@keyframes example {
+    from {text-decoration: none}
+    to {text-decoration: underline overline solid rgb(25, 209, 40);}
+  }
+
+
+#test{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+}
+
+#test:hover{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+    animation-name: var(--animation-name);
+    animation-duration: var(--duration);
+}
+
+#sign-in{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+
+}
+
+#sign-in:hover{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+    animation-name: var(--animation-name);;
+    animation-duration: var(--duration);
+}
+
+#home{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+}
+
+#home:hover{
+    margin-left: 10%;
+    color: black;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3em;
+    animation-name: var(--animation-name);;
+    animation-duration: var(--duration);
+}
+
+
+.main-photo-container{
+     height: 40%; 
+    /* height: calc(100vh - 120px); */
+    position: relative;
+}
+
+#main-page-photo{
+    width: 100%;
+    height: 50%;
+    
+}
+
+#motivation{
+    position: absolute;
+    top: 32%;
+    right: 9%;
+    font-size: 2.3em;;
+    color: black;
+    font-family: 'Crete Round', serif;
+}
+
+#motivation2{
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    font-size: 130%;
+    color: black;
+    font-family: 'Yrsa', serif;
+}
+
+#learn-more{
+    position: absolute;
+    top: 50%;
+    right: 26%;
+    font-size: 15px;
+    color: black;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#learn-more:hover{
+    position: absolute;
+    top: 50%;
+    right: 26%;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(6, 94, 6);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+#home{
+    top: 25px;
+
+}
+
+.body1{
+  display: flex; 
+  justify-content: center; 
+}
+
+#text-header{
+    margin: 25px;
+    padding-left: 28%;
+    color: green;
+    font-family: 'Yrsa', serif;
+    font-size: 28px;
+}
+
+#stress{
+    
+    height: 150px;
+    position: relative;
+    right: 12%;
+}
+
+#depression{
+    height: 150px;
+}
+
+#anxiety{
+    height: 150px;
+    position: relative;
+    left: 12%;
+}
+
+.body1-text{
+    display: flex; 
+    justify-content: center; 
+  }
+
+#stress-text{
+    position: relative;
+    right: 18.5%;
+    color: green;
+    font-size: 20px;
+}
+
+#depression-text{
+    position: relative;
+    right: 1.5%;
+    color: green;
+    font-size: 20px;
+}
+
+#anxiety-text{
+    position: relative;
+    left: 17.5%;
+    color: green;
+    font-size: 20px;
+}
+
+.red{
+    color: red;
+}
+
+#block2-container{
+    background-color: rgb(212, 209, 209);
+}
+
+.body2{
+    display: flex; 
+    justify-content: center; 
+}
+
+#text-header2{
+    margin: 25px;
+    padding-left: 42%;
+    color: green;
+    font-family: 'Yrsa', serif;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+#assessment{
+    
+    height: 150px;
+    position: relative;
+    right: 17%;
+}
+
+#book-psycho{
+    height: 150px;
+}
+
+#chat{
+    height: 150px;
+    position: relative;
+    left: 17%;
+}
+
+.body2-text{
+    display: flex; 
+    justify-content: center; 
+  }
+
+#assess-text{
+    position: relative;
+    right: 6%;
+    color: green;
+    font-size: 20px;
+}
+
+#book-text{
+    position: relative;
+    left: 4%;
+    color: green;
+    font-size: 20px;
+}
+
+#chat-text{
+    position: relative;
+    left: 11%;
+    color: green;
+    font-size: 20px;
+}
+
+.sign-in-part{
+    background-color:rgb(226, 226, 134);
+}
+
+#text-header3{
+    margin: 25px;
+    padding-left: 34%;
+    color: green;
+    font-family:'Crete Round', serif ;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+#sign-in-btn{
+    margin-left: 47.5%;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    font-family:'Crete Round', serif  ;
+    font-display: bold;
+    font-size: 15px;
+}
+
+
+/* !CSS Footer Content (Copy to all pages) */
+
+#grid-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer{
+    background-color: rgb(61, 53, 53);
+    width: 100%;
+}
+
+#whiteLogo{
+    width: 150px;
+    grid-column: 1/2;
+    margin-left: 50%;
+}
+
+#hyperlinks{
+    padding-top: 16px;
+}
+
+#quick{
+    color: green;
+    grid-column: 2/3;
+    padding-top: 15px;
+    padding-left: 12%;
+    font-weight: bold;
+}
+
+#links-container{
+    margin-left: 13%;
+    position: relative;
+    top: 12px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.white{
+    color: white;
+}
+
+#follow-us{
+    grid-column: 4/5;
+}
+
+.size-photo{
+    width: 45px;
+}
+
+#follow-text{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 20px;
+    color: green;
+    font-family:'Crete Round', serif; 
+    line-height: 30px;
+}
+
+#rights{
+    color: white;
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+    margin-left: 39%;
+    
+}

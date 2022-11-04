@@ -1,0 +1,134 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+} */
+
+#profile-image>input {
+  margin-left: 80px;
+}
+
+#imguploader{
+  display: none;
+}
+
+hr {
+  width: 60%;
+  margin-left: 180px;
+}
+
+#proimg {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#profile-info>input {
+  border: none;
+}
+
+#account-info {
+  font-weight: bold;
+}
+
+.form-style-5 {
+  max-width: 500px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-5 fieldset {
+  border: none;
+}
+
+.form-style-5 legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.form-style-5 label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-style-5 input {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(255, 255, 255, .1);
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 85%;
+  box-sizing: border-box;
+  background-color: #e8eeef;
+  color: rgb(66, 66, 66);
+  margin-bottom: 25px;
+}
+
+.form-style-5  input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.form-style-5  input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+#dob {
+  width: 75%;
+}
+
+#address {
+  width: 82%;
+}
+
+#phone {
+  width: 80%;
+}
+
+#pass {
+  width: 79%;
+}
+
+.form-style-5 input:focus {
+  background: #d2d9dd;
+}
+
+.form-style-5 input[type="submit"]:hover, .form-style-5 input[type="button"]:hover {
+  background: #109177;
+}
+
+.form-style-5 button{
+  border: none;
+  color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+  width: 50%;
+  padding: 19px 39px 18px 39px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:focus {outline:0;}
+
+button:hover{
+	background: #0da587; 
+}

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    max-width: 100vw;
+    padding: 0 20px;
+  }
+  
+  .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    text-align: right;
+    display: none;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+
+  #msg-box{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(120, 168, 241);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-top: 5px white solid;
+    border-radius: 20px;
+  }
+
+  #msg-box input[type=text]{
+    width: 680px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  #msg-box input[type=text]:focus, input[type=submit]:focus{
+    outline: 0;
+  }
+
+  #msg-box input[type=submit]{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #msg-box input[type=submit]:hover{
+    background-color: rgb(202, 202, 202);
+  }

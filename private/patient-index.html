@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/patient-style.css">
+  <script src="js/patient-index.js"></script>
+  <script src="js/patient-booking.js"></script>
+  <title>Nirvana</title>
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- !Header Content (Copy to all pages) -->
+
+    <div class="header">
+
+      <div id="logoContainer">
+        <a href="/main.html">
+          <img src="img/main-logo.png" class="logo">
+        </a>
+      </div>
+
+      <div id="header-btns">
+        <a id="home" href="#">Home</a>
+        <a id="test" href="#">Tests</a>
+        <a id="sign-in" href="/main.html">Sign Out</a>
+        <a id="book" href="#" onclick="booking()">Book NOW!</a>
+      </div>
+
+    </div>
+
+    <!-- User dashboard -->
+
+    <div id="user-panel">
+      <div class="dashboard">Dashboard</div>
+      <div id="profile" class="item item1" onclick="userpanel(this.id)"><a href='#'>Profile</a></div>
+      <div id="patient-appointment" class="item item2" onclick="userpanel(this.id)"><a href='#'>Appointments</a></div>
+      <div id="patient-medicalhis" class="item item3" onclick="userpanel(this.id)"><a href='#'>Medical History</a></div>
+      <div id="patient-medicinesch" class="item item4" onclick="userpanel(this.id)"><a href='#'>Medicine Schedule</a></div>
+      <div id="inbox" class="item item5" onclick="userpanel(this.id)"><a href='#'>Inbox</a></div>
+      <div class="empty"></div>
+      <div id="dashdisplay" class="dashboard-display"></div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div id="grid-footer">
+
+        <img id="whiteLogo" src="/img/white-logo.png">
+
+        <div id="hyperlinks">
+          <p id="quick"> QUICK LINKS </p>
+          <div id="links-container">
+            <p><a href="#" class="white">HOME</a></p>
+            <p><a href="#" class="white">CONTACT US</a></p>
+            <p><a href="#" class="white">FAQ</a></p>
+          </div>
+        </div>
+
+        <div id="follow-us">
+          <p id="follow-text">FOLLOW US</p>
+          <a href="#"><img src="/img/facebook.webp" class="size-photo"></a>
+          <a href="#"><img src="/img/instagram.png" class="size-photo"></a>
+          <a href="#"><img src="/img/whatsapp.png" class="size-photo"></a>
+        </div>
+      </div>
+
+      <p id="rights">ALL RIGHTS RESERVED FOR NIRVANA TEAM 2019 © </p>
+    </div>
+
+    <div id="bookingpop-back">
+        <div id="bookingpop-front">
+          <form action="#" id="#bookform " name="form" method="GET">
+            Booking Details
+            <br><br>
+            Date: <input id="bookdate" type="date"><br><br>
+            Time: <input id="booktime" type="time">
+            <br><br>
+            <a href="#" id="yesbtn">Confirm</a>
+            <a href="#" id="nobtn">No</a>
+          </form>
+        </div>
+      </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#background{
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-container{
+    position: absolute;
+    bottom: 100px;
+    padding-left: 510px;
+    width: 600px;
+}
+
+#id{
+    position: absolute;
+    bottom: 400px;
+    left: 766px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    padding-left: 12px;
+}
+
+#password{
+    position: absolute;
+    bottom: 350px;
+    left: 766px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    padding-left: 12px;
+}
+
+#logo{
+    position: absolute;
+    bottom: 460px;
+    width: 160px;
+    left: 733px;
+}
+
+#user-icon{
+    position: absolute;
+    bottom: 400px;
+    left: 680px;
+    width: 40px;
+}
+
+#password-icon{
+    position: absolute;
+    bottom: 350px;
+    left: 680px;
+    width: 40px;
+}
+
+#submit{
+    position: absolute;
+    bottom: 190px;
+    left: 774px;
+    border-radius: 15px 40px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#submit:hover{
+    position: absolute;
+    bottom: 190px;
+    left: 774px;
+    border-radius: 15px 40px;
+    padding: 20px;
+    background-color: rgb(187, 18, 18);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#submit:active{
+    position: absolute;
+    bottom: 190px;
+    left: 774px;
+    border-radius: 15px 40px;
+    padding: 20px;
+    background-color: rgb(37, 197, 16);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}

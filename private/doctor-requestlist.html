@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/doctor-requestlist.css">
+  <script src="js/doctor-requestlist.js"></script>
+  <script src="js/doctor-render-requestlist.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="cp">
+      <h1>Current Patients</h1>
+    </div>
+
+    <hr>
+    <div id="cpl">
+      <table id="currentpatientslists">
+      </table>
+    </div>
+    <div id="rp">
+      <h1>Requested Patients</h1>
+    </div>
+    <hr>    
+    <div id="note" >Currently no patients</div>
+    <div id="rpl">
+        
+      <table id="requestedpatientslists">
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
+<script>
+  showCurrentPatientList();
+  showRequestedPatientList();
+</script>
